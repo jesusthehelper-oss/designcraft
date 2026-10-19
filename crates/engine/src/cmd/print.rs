@@ -84,7 +84,7 @@ mod tests {
             assert!(command.contains(&"print-scaling=auto-fit"));
             assert!(!command.iter().any(|a| a.starts_with("sides=")));
         } else {
-            assert_eq!(command[0], "powershell");
+            assert_eq!(command[0], "xps-print", "Windows prints in-process through XPS, no PowerShell");
         }
         assert!(r["bytes"].as_u64().unwrap() > 500);
         assert!(s.execute("file.print", &json!({"pages": "9", "dryRun": true})).is_err());
