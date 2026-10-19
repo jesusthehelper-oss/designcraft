@@ -78,7 +78,7 @@ craft-docpath = { version = "0.1.0", git = "https://github.com/storytold/craft-l
 # Atomic file replacement for saves and exports (craft-libs).
 craft-atomic = { version = "0.1.0", git = "https://github.com/storytold/craft-libs", rev = "e9546e191dd62f2bc1d61eca45dbdc2f1b3c1d8e" }
 # File › Print through the system print spooler (craft-libs).
-craft-print = { version = "0.1.0", git = "https://github.com/storytold/craft-libs", rev = "d991bf6792f8ade99c51358bf3c1d902c8cd96b5" }
+craft-print = { version = "0.1.0", git = "https://github.com/jesusthehelper-oss/craft-libs", rev = "5be48f712bac194c02f33f3a5a43577121870bc4" }
 
 # ICC colour management: working spaces, transforms, black point compensation (craft-libs).
 craft-cms = { version = "0.1.0", git = "https://github.com/storytold/craft-libs", rev = "e9546e191dd62f2bc1d61eca45dbdc2f1b3c1d8e" }
